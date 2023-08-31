@@ -1,0 +1,39 @@
+.time-range-input {
+  text-align: left;
+}
+
+.time-range-input span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem;
+  border: solid 1px #777;
+  border-radius: 0.25rem;
+}
+
+.time-range-input input {
+  width: 6.5rem;
+  font-size: x-large;
+  border: transparent;
+  padding: 0.2rem;
+}
+
+::placeholder {
+  color: #ddd !important;
+}
+
+:focus::placeholder {
+  color: transparent !important;
+}
+
+.time-range-input input.invalid {
+  color: #c00;
+}
+
+.warning {
+  color: #c00;
+  font-size: medium;
+  margin-top: 0.25rem;
+}
